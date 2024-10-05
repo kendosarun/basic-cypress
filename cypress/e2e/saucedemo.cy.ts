@@ -45,7 +45,7 @@ describe('Sauce demo', () => {
 
     });
 
-    it.only('login with standard_user username & password', () => {
+    it('login with standard_user username & password', () => {
 
         loginPage.loginAndClick('standard_user', 'secret_sauce');
 
