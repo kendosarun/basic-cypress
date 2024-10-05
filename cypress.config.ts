@@ -15,5 +15,4 @@ export default defineConfig({
 
   video: true,
 
-  // chromeWebSecurity: false
 });
