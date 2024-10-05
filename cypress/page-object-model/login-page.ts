@@ -9,4 +9,9 @@ export class Login {
 
     }
 
+    expectedResultDialogError(wording: string) {
+
+        cy.get('[data-test="error"]').should('have.text', wording);
+    }
+
 }

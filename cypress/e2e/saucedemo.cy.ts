@@ -33,7 +33,7 @@ describe('Sauce demo', () => {
 
         cy.get('#login-button').click();
 
-        cy.get('[data-test="error"]').should('have.text', 'Epic sadface: Username is required');
+        loginPage.expectedResultDialogError('Epic sadface: Username is required')
 
     });
 
@@ -41,7 +41,7 @@ describe('Sauce demo', () => {
 
         loginPage.loginAndClick('qweqweqwe', 'ewqioewqewq');
 
-        cy.get('[data-test="error"]').should('have.text', 'Epic sadface: Username and password do not match any user in this service');
+        loginPage.expectedResultDialogError('Epic sadface: Username and password do not match any user in this service')
 
     });
 
