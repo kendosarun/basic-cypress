@@ -1,0 +1,5 @@
+node_module/
+
+cypress/video
+
+cypress/screenshots
