@@ -15,7 +15,7 @@ describe('Website Apple', () => {
 
     });
 
-    it.only('Expected response body with json file', () => {
+    it('Expected response body with json file', () => {
 
       cy.visit('https://www.apple.com/th/');
 
