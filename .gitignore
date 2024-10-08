@@ -1,5 +1,13 @@
-node_modules/
+# dependencies
+/node_modules
+.yarn
+.yarn/*
 
-cypress/videos
+/cypress/videos
+/cypress/results
+/cypress/screenshots
+/results
+/cypress/report
+/cypress/downloads
 
-cypress/screenshots
+yarn.lock
