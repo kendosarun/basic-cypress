@@ -10,4 +10,4 @@ COPY cypress /app/cypress
 
 RUN yarn install
 
-CMD ["yarn", "cypress", "run", "--config", "video=false", "--spec", "cypress/e2e/saucedemo, cypress/e2e/api-apple.cy.ts" ]
+CMD ["yarn", "cypress", "run", "--config", "video=false", "--spec", "cypress/e2e/*.cy.ts" ]
